@@ -1,0 +1,17 @@
+This is a repository containing files for running a simulation
+of perceptron based agents learning from each other in a society.
+
+There are make options for both linux with gsl and igraph installed (optimized
+for m64 architecture) and for mac with gsl and igraph installed through macports.
+
+The commands for building are:
+make mac
+make linux
+
+The command line arguments are provided in a help message when running the program sociedade.
+
+Scripts multiprocess.py and fasediagrama.py are python scripts for running the simulation
+for a range of parameters on a multicore system.
+
+Alex Susemihl
+21/02/2010
